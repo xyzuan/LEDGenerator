@@ -156,7 +156,7 @@ window.requestAnimFrame = (function () {
     var _curt = new Date().getTime();
     if (tick) {
       var dt = _curt - tick;
-      sPos += dt * 0.02;
+      sPos += dt * 0.04;
     }
     tick = _curt;
     upd();
