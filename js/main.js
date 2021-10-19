@@ -18,7 +18,7 @@ window.requestAnimFrame = (function () {
   const txt = space + customText;
   
   var hCell = 80;
-  var vCell = 20;
+  var vCell = 25;
   var sPos = Math.random() * 10000;
   var tick = false;
   var pval = false;
